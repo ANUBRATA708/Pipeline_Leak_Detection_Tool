@@ -45,9 +45,9 @@ waterleak_detection/
    
 3. Double click on launch_app.bat file.
 
-   🧪 Testing the App
+## 🧪 Testing the App
    
-## Upload either:
+ Upload either:
 
 ✅ data/sample_leak_signal.csv → shows leak
 
