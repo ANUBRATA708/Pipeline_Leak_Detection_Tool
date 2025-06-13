@@ -1,8 +1,8 @@
-🚰 Water Pipeline Leak Detection using Signal Processing and Deep Learning
+## 🚰 Water Pipeline Leak Detection using Signal Processing and Deep Learning
 
 An AI-powered tool that detects water pipeline leaks by analyzing vibration signals using signal processing techniques and a deep learning model. Designed with an interactive and visually appealing Streamlit dashboard for easy use.
 
-📦 Project Structure
+## 📦 Project Structure
 
 waterleak_detection/
 
@@ -25,7 +25,7 @@ waterleak_detection/
 
 └── requirements.txt             # Dependencies 
 
-🎯 Features
+## 🎯 Features
 
 🔍 Detects leaks from uploaded vibration signals (.csv)
 
@@ -37,7 +37,7 @@ waterleak_detection/
 
 🌈 Beautiful UI with colors, buttons, and headers using Streamlit
 
-🔧 Installation
+## 🔧 Installation
 
 1. Download all the given files in proper order.
    
@@ -47,18 +47,18 @@ waterleak_detection/
 
    🧪 Testing the App
    
-Upload either:
+## Upload either:
 
 ✅ data/sample_leak_signal.csv → shows leak
 
 ✅ data/sample_no_leak_signal.csv → shows no leak
 
-🖼 Sample Output
+## 🖼 Sample Output
 ![image](https://github.com/user-attachments/assets/f9f98b1e-b69b-43e8-8354-80eec59150e2)
 ![image](https://github.com/user-attachments/assets/19035a99-0703-4bed-839d-c8b3800f41a8)
 ![image](https://github.com/user-attachments/assets/4f65222e-3394-4969-825f-95a05eca2b98)
 
-🤝 Contributors
+## 🤝 Contributors
 
 👨‍💻 ANUBRATA MAJUMDAR
 
