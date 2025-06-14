@@ -26,17 +26,29 @@
 
 
 waterleak_detection/
+
 ├── app.py                     # Streamlit app with dashboard
+
 ├── launch_app.bat             # Direct launcher
+
 ├── leak_detector.py           # Signal filtering and feature extraction
+
 ├── models/
+
 │   └── leak_model.h5          # Pre-trained DL model
+
 ├── data/
+
 │   ├── sample_leak_signal.csv     # Signal data (leak)
+
 │   ├── sample_no_leak_signal.csv # Signal data (no leak)
+
 │   ├── features.npy               # Optional extracted features
+
 │   └── labels.npy                # Ground truth labels
+
 ├── requirements.txt           # Python dependencies
+
 └── README.md                  # Project documentation
 
    
