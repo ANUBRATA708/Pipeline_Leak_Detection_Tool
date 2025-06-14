@@ -1,57 +1,45 @@
-## 🚰 Water Pipeline Leak Detection using Signal Processing and Deep Learning
+<h1 align="center">🚰 Water Pipeline Leak Detection</h1>
+<p align="center">
+  An AI-powered tool that detects water pipeline leaks by analyzing vibration signals using signal processing techniques and a deep learning model.
+</p>
 
-An AI-powered tool that detects water pipeline leaks by analyzing vibration signals using signal processing techniques and a deep learning model. Designed with an interactive and visually appealing Streamlit dashboard for easy use.
+<p align="center">
+  <img src="https://img.shields.io/badge/Deep%20Learning-Keras-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Signal%20Processing-FFT-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Streamlit-UI-red?style=for-the-badge"/>
+</p>
 
-## 📦 Project Structure
-
-waterleak_detection/
-
-├── app.py                       # Streamlit app with signal visualizations
-
-├── leak_detector.py             # Signal filtering and feature extraction logic
-
-├── models/
-
-│   └── leak_model.h5            # Trained deep learning model
-
-├── data/
-│   ├── features.npy             # Extracted features (optional for reference)
-
-│   ├── sample_leak_signal.csv   # Sample input file (leak present)
-
-│   └── labels.npy
-
-├── README.md                    # Project documentation
-
-└── requirements.txt             # Dependencies 
+---
 
 ## 🎯 Features
 
-🔍 Detects leaks from uploaded vibration signals (.csv)
+- 🔍 Upload vibration signals in `.csv` format
+- 🎛️ Apply bandpass filter (20–300 Hz)
+- 📈 View raw, filtered, and FFT signal graphs
+- 🧠 Predict leaks using deep learning classifier (binary)
+- 🌈 Streamlit-based colorful and interactive UI
+- 💾 Load pre-trained model and test with sample data
 
-🎛️ Bandpass filtering between 20–300 Hz
+---
 
-📈 Signal visualization (raw, filtered, frequency spectrum)
+## 📦 Project Structure
 
-🧠 Deep learning prediction (binary classifier)
 
-🌈 Beautiful UI with colors, buttons, and headers using Streamlit
+waterleak_detection/
+├── app.py                     # Streamlit app with dashboard
+├── launch_app.bat             # Direct launcher
+├── leak_detector.py           # Signal filtering and feature extraction
+├── models/
+│   └── leak_model.h5          # Pre-trained DL model
+├── data/
+│   ├── sample_leak_signal.csv     # Signal data (leak)
+│   ├── sample_no_leak_signal.csv # Signal data (no leak)
+│   ├── features.npy               # Optional extracted features
+│   └── labels.npy                # Ground truth labels
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
 
-## 🔧 Installation
-
-1. Download all the given files in proper order.
    
-2. Run python requirements.txt (If running locally)
-   
-3. Double click on launch_app.bat file.
-
-## 🧪 Testing the App
-   
- Upload either:
-
-✅ data/sample_leak_signal.csv → shows leak
-
-✅ data/sample_no_leak_signal.csv → shows no leak
 
 ## 🖼 Sample Output
 ![image](https://github.com/user-attachments/assets/f9f98b1e-b69b-43e8-8354-80eec59150e2)
@@ -60,8 +48,7 @@ waterleak_detection/
 
 ## 🤝 Contributors
 
-👨‍💻 ANUBRATA MAJUMDAR
-
+👨‍💻 ANUBRATA MAJUMDAR 
 🤖 Built using Python, NumPy, SciPy, Matplotlib, TensorFlow, Streamlit
 
 📃 License
