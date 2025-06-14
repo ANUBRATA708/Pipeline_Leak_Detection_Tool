@@ -58,10 +58,24 @@ waterleak_detection/
 ![image](https://github.com/user-attachments/assets/19035a99-0703-4bed-839d-c8b3800f41a8)
 ![image](https://github.com/user-attachments/assets/4f65222e-3394-4969-825f-95a05eca2b98)
 
+## 🧠 Built With
+
+Python
+
+Streamlit
+
+NumPy / Pandas
+
+SciPy
+
+Keras / TensorFlow
+
+
+
 ## 🤝 Contributors
 
 👨‍💻 ANUBRATA MAJUMDAR 
-🤖 Built using Python, NumPy, SciPy, Matplotlib, TensorFlow, Streamlit
+
 
 📃 License
 This project is licensed under the MIT License.
